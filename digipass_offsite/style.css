@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'montserratregular', sans-serif;
+}
+h3 {
+    font-family: 'montserratmedium';
+    font-size: 25px;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('./fonts/montserrat-bold-webfont.woff2') format('woff2'),
+         url('./fonts/montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'montserratextralight';
+    src: url('./fonts/montserrat-extralight-webfont.woff2') format('woff2'),
+         url('./fonts/montserrat-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'montserratregular';
+    src: url('./fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('./fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'montserratmedium';
+    src: url('./fonts/montserrat-medium-webfont.woff2') format('woff2'),
+         url('./fonts/montserrat-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Partie HEADER */
+header {
+    color:#0575ba;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#logo {
+    font-size: 25px;
+    margin-left: 10px;
+    font-family: 'montserratbold', sans-serif;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    margin-left: 20px;
+}
+header a {
+    color:#0575ba ;
+    margin-left: 25px;
+}
+header a:hover {
+    color: #ED5B1F;
+    text-decoration: none;
+}
+
+/* SECTION ACCUEIL */
+#Accueil {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    color:#0575ba;
+    font-size: 40px;
+    font-family: 'montserratbold', sans-serif;
+}
+#Accueil p{
+    padding: 10px 50px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 2.5 ;
+}
+#email {
+    border: 1px ridge #0575ba;
+    padding: 8px;
+    border-radius: 3px;
+    color:#0575ba;
+}
+#button {
+    border: none;
+    border-radius: 3px;
+    padding: 9px;
+    background-color: #0575ba;
+    color: white;
+}
+#button:hover {
+    border: 1px solid #0575ba;
+    border-radius: 3px;
+    padding: 9px;
+    background-color: white;
+    color: #0575ba;
+}
+
+/* SECTION SERVICES */
+#Services {
+    background-color: #0575ba;
+    color: white;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 150px;
+}
+#Services ul {
+    margin-top: 25px;
+}
+#Services li {
+    font-family: 'montserratextralight', sans-serif;
+    margin: 5px 0 0 30px;
+}
+
+/* SECTION EQUIPE */
+#Equipe {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+#Equipe h3 {
+    margin-left: 150px;
+    color: #0575ba;
+}
+.team {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.rondimg {
+    background-color: #0575ba;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.rondimg:hover {
+    opacity: .3;
+}
+.sarah {
+    background: url('./img/sarah.jpg') center/100%;
+}
+.arthur {
+    background:url('./img/arthur.jpg') center/100%;
+}
+.elise {
+    background:url('./img/elise.jpg')center/100%;
+}
+.box {
+    margin-left: 50px;  
+}
+.box p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* SECTION CONTACT */
+#Contact {
+    background-color: #0575ba;
+    color: white;
+    height: 35vh;
+    font-family: 'montserratextralight', sans-serif;
+    line-height: 2.1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 150px;
+}
